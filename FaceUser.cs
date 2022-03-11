@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FaceUser : MonoBehaviour
 {
-    public Transform mainCamera;
+    Transform mainCamera;
 
     void Start()
     {

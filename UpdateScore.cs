@@ -11,7 +11,7 @@ public class UpdateScore : MonoBehaviour
         GetComponent<TextMesh>().text = "0";
     }
 
-    void Update()
+    void FixedUpdate()
     {
         float r= walker.GetComponent < WalkerAgent>().GetCumulativeReward();
         GetComponent<TextMesh>().text = r.ToString();
